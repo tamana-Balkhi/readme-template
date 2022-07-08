@@ -1,72 +1,89 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# portfolio
 
-> Description the project.
-
+> This Project is a clone of a Portfolio template from figma
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML/CSS
+- NPM, Git, Github
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+no live demo
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**this website is a desktop and mobile version portfolio**
 
+**The purpose of these project is to build the Mobile and desktop interface of a portfolio website using the figma template.
 
-To get a local copy up and running follow these simple example steps.
+for running follow these simple example steps.
+
+## Clone The Repositiry to your local machine by following the steps below
+
+Step 1: Type the following command into a git shell
+
+git clone https://github.com/tamana-Balkhi/portfolio.git
+
+Step 2: Direct a terminal into the cloned repository directory
 
 ### Prerequisites
 
+1. Node package Manager(NPM)
+   
+
+- Text editor(Vscode, Sublime)
+
 ### Setup
+
+Set up folder as:
+
+1. /PORTFOLIO-MICROVERSE -.github/workflows - linters.yml
+   - images
+   - .hintrc
+   - .stylelintrc.json
+   - index.html
+   - LICENSE
+   - Package-lock.json
+   - Package.json
+   - style.css
 
 ### Install
 
+Run the following commands to install dependencies
+
+```
+
+npm install --save-dev hint@7.x
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+```
+
 ### Usage
 
-### Run tests
+`run these commonds to avoid linters errors``
+
+npx hint .
+npx stylelint "**/*.{css,scss}"
+
+```
 
 ### Deployment
 
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Omachi John Sunday**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/tamana-Balkhi)
+- Twitter: [@twitterhandle](https://twitter.com/Tamana-1377)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+ if some one wants Contributions, welcome!
 
-Feel free to check the [issues page](../../issues/).
 
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
